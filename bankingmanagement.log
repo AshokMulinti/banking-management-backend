@@ -1,0 +1,1097 @@
+2024-09-20 07:55:10 - Starting BankingmanagementApiApplication using Java 21.0.1 with PID 19772 (C:\Users\91630\SpringBootProject\bankingmanagement-api\build\classes\java\main started by 91630 in C:\Users\91630\SpringBootProject)
+2024-09-20 07:55:10 - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 07:55:10 - No active profile set, falling back to 1 default profile: "default"
+2024-09-20 07:55:12 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 07:55:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-20 07:55:12 - Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2024-09-20 07:55:12 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 07:55:12 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-09-20 07:55:12 - Finished Spring Data repository scanning in 32 ms. Found 5 MongoDB repository interfaces.
+2024-09-20 07:55:14 - Tomcat initialized with port 9090 (http)
+2024-09-20 07:55:14 - Starting service [Tomcat]
+2024-09-20 07:55:14 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-20 07:55:14 - Initializing Spring embedded WebApplicationContext
+2024-09-20 07:55:14 - Root WebApplicationContext: initialization completed in 3590 ms
+2024-09-20 07:55:14 - HikariPool-1 - Starting...
+2024-09-20 07:55:15 - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4dd1d2bb
+2024-09-20 07:55:15 - HikariPool-1 - Start completed.
+2024-09-20 07:55:15 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-20 07:55:15 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-20 07:55:15 - HHH000026: Second-level cache disabled
+2024-09-20 07:55:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-20 07:55:16 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-09-20 07:55:16 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 07:55:16 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 07:55:16 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 07:55:16 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 07:55:17 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-20 07:55:17 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-20 07:55:18 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.1+12-LTS-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@5ea50a98], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@76dc9569, com.mongodb.Jep395RecordCodecProvider@35800dea, com.mongodb.KotlinCodecProvider@3b4cce5a]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@13a35d3b], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-09-20 07:55:18 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=49440500}
+2024-09-20 07:55:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-20 07:55:21 - Exposing 9 endpoints beneath base path '/actuator'
+2024-09-20 07:55:21 - Tomcat started on port 9090 (http) with context path '/'
+2024-09-20 07:55:21 - Started BankingmanagementApiApplication in 11.252 seconds (process running for 11.72)
+2024-09-20 07:55:21 - Banking Management Application has been started
+2024-09-20 07:55:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20 07:55:34 - Initializing Servlet 'dispatcherServlet'
+2024-09-20 07:55:34 - Completed initialization in 2 ms
+2024-09-20 07:55:35 - Init duration for springdoc-openapi is: 660 ms
+2024-09-20 07:55:45 - Inside the AccountController.findAllAccounts
+2024-09-20 07:55:45 - Inside the AccountServiceImpl.findAll
+2024-09-20 07:55:46 - Account details: [AccountTO[id=66e8fa13d83236f7d7513b7f, accountNo=12345, accountType=Savings, accountBalance=1000]]
+2024-09-20 07:55:46 - Account details: [AccountTO[id=66e8fa13d83236f7d7513b7f, accountNo=12345, accountType=Savings, accountBalance=1000]]
+2024-09-20 07:55:46 - End of AccountController.findAllAccounts
+2024-09-20 07:57:18 - Inside the BankController.findAllBanks
+2024-09-20 07:57:18 - Inside the BankServiceImpl.findAll
+2024-09-20 07:57:18 - Bank details:[BankTO[id=66e8f563d83236f7d7513b79, bankCode=1234, bankName=Bank of India, bankAddress=Mumbai]]
+2024-09-20 07:57:18 - Bank details:[BankTO[id=66e8f563d83236f7d7513b79, bankCode=1234, bankName=Bank of India, bankAddress=Mumbai]]
+2024-09-20 07:57:18 - End of BankController.findAllBanks
+2024-09-20 07:58:08 - Inside the BankController.findById, id:66e8f563d83236f7d7513b79
+2024-09-20 07:58:08 - Inside the BankServiceImpl.findById, id:66e8f563d83236f7d7513b79
+2024-09-20 07:58:08 - Bank details:com.bankingmanagement.document.Bank@34f6b976
+2024-09-20 07:58:08 - Bank details, bank:BankTO[id=66e8f563d83236f7d7513b79, bankCode=1234, bankName=Bank of India, bankAddress=Mumbai]
+2024-09-20 07:58:08 - End of BankController.findById
+2024-09-20 08:05:22 - Starting BankingmanagementApiApplication using Java 21.0.1 with PID 20640 (C:\Users\91630\SpringBootProject\bankingmanagement-api\build\classes\java\main started by 91630 in C:\Users\91630\SpringBootProject)
+2024-09-20 08:05:22 - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 08:05:22 - No active profile set, falling back to 1 default profile: "default"
+2024-09-20 08:05:24 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:05:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-20 08:05:24 - Finished Spring Data repository scanning in 82 ms. Found 5 JPA repository interfaces.
+2024-09-20 08:05:24 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:05:24 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-09-20 08:05:24 - Finished Spring Data repository scanning in 30 ms. Found 5 MongoDB repository interfaces.
+2024-09-20 08:05:27 - Tomcat initialized with port 9090 (http)
+2024-09-20 08:05:27 - Starting service [Tomcat]
+2024-09-20 08:05:27 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-20 08:05:27 - Initializing Spring embedded WebApplicationContext
+2024-09-20 08:05:27 - Root WebApplicationContext: initialization completed in 4018 ms
+2024-09-20 08:05:27 - HikariPool-1 - Starting...
+2024-09-20 08:05:28 - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@134c38
+2024-09-20 08:05:28 - HikariPool-1 - Start completed.
+2024-09-20 08:05:28 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-20 08:05:28 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-20 08:05:28 - HHH000026: Second-level cache disabled
+2024-09-20 08:05:28 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-20 08:05:29 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-09-20 08:05:29 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:05:29 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:05:29 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:05:29 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:05:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-20 08:05:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-20 08:05:31 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.1+12-LTS-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@2fedae96], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4a1cafb2, com.mongodb.Jep395RecordCodecProvider@441798ce, com.mongodb.KotlinCodecProvider@335cd031]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@2fc51562], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-09-20 08:05:31 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=63263200}
+2024-09-20 08:05:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-20 08:05:33 - Exposing 9 endpoints beneath base path '/actuator'
+2024-09-20 08:05:33 - Tomcat started on port 9090 (http) with context path '/'
+2024-09-20 08:05:33 - Started BankingmanagementApiApplication in 11.533 seconds (process running for 12.065)
+2024-09-20 08:05:33 - Banking Management Application has been started
+2024-09-20 08:05:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20 08:05:41 - Initializing Servlet 'dispatcherServlet'
+2024-09-20 08:05:41 - Completed initialization in 2 ms
+2024-09-20 08:05:42 - Init duration for springdoc-openapi is: 604 ms
+2024-09-20 08:05:57 - Inside the AccountController.findAllAccounts
+2024-09-20 08:05:57 - Inside the AccountServiceImpl.findAll
+2024-09-20 08:05:57 - Account details: [AccountTO[id=66e8fa13d83236f7d7513b7f, accountNo=12345, accountType=Savings, accountBalance=1000]]
+2024-09-20 08:05:57 - Account details: [AccountTO[id=66e8fa13d83236f7d7513b7f, accountNo=12345, accountType=Savings, accountBalance=1000]]
+2024-09-20 08:05:57 - End of AccountController.findAllAccounts
+2024-09-20 08:06:19 - Inside the AccountController.findById, id:66e8fa13d83236f7d7513b7f
+2024-09-20 08:06:19 - Inside the AccountServiceImpl.findById, id:66e8fa13d83236f7d7513b7f
+2024-09-20 08:06:19 - Account details:com.bankingmanagement.document.Account@22369997
+2024-09-20 08:06:19 - Account details:AccountTO[id=66e8fa13d83236f7d7513b7f, accountNo=12345, accountType=Savings, accountBalance=1000]
+2024-09-20 08:06:19 - End of AccountController.findById
+2024-09-20 08:13:04 - Starting BankingmanagementApiApplication using Java 21.0.1 with PID 24068 (C:\Users\91630\SpringBootProject\bankingmanagement-api\build\classes\java\main started by 91630 in C:\Users\91630\SpringBootProject)
+2024-09-20 08:13:04 - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 08:13:04 - No active profile set, falling back to 1 default profile: "default"
+2024-09-20 08:13:05 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:13:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-20 08:13:06 - Finished Spring Data repository scanning in 89 ms. Found 5 JPA repository interfaces.
+2024-09-20 08:13:06 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:13:06 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-09-20 08:13:06 - Finished Spring Data repository scanning in 38 ms. Found 5 MongoDB repository interfaces.
+2024-09-20 08:13:08 - Tomcat initialized with port 9090 (http)
+2024-09-20 08:13:08 - Starting service [Tomcat]
+2024-09-20 08:13:08 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-20 08:13:08 - Initializing Spring embedded WebApplicationContext
+2024-09-20 08:13:08 - Root WebApplicationContext: initialization completed in 3737 ms
+2024-09-20 08:13:09 - HikariPool-1 - Starting...
+2024-09-20 08:13:09 - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6c5ae8fd
+2024-09-20 08:13:09 - HikariPool-1 - Start completed.
+2024-09-20 08:13:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-20 08:13:10 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-20 08:13:10 - HHH000026: Second-level cache disabled
+2024-09-20 08:13:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-20 08:13:10 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-09-20 08:13:11 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:13:11 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:13:11 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:13:11 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:13:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-20 08:13:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-20 08:13:13 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.1+12-LTS-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@28c38eeb], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@608448e7, com.mongodb.Jep395RecordCodecProvider@3bd7829b, com.mongodb.KotlinCodecProvider@4faccb34]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@1bff4b1f], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-09-20 08:13:13 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=35917400}
+2024-09-20 08:13:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-20 08:13:15 - Exposing 9 endpoints beneath base path '/actuator'
+2024-09-20 08:13:16 - Tomcat started on port 9090 (http) with context path '/'
+2024-09-20 08:13:16 - Started BankingmanagementApiApplication in 12.415 seconds (process running for 13.131)
+2024-09-20 08:13:16 - Banking Management Application has been started
+2024-09-20 08:13:27 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20 08:13:27 - Initializing Servlet 'dispatcherServlet'
+2024-09-20 08:13:27 - Completed initialization in 2 ms
+2024-09-20 08:13:28 - Init duration for springdoc-openapi is: 716 ms
+2024-09-20 08:14:16 - Inside the BranchController.findAllBranches
+2024-09-20 08:14:16 - Inside the BranchServiceImpl.findAll
+2024-09-20 08:14:16 - Branch details:[BranchTO[id=66e8fb1bd83236f7d7513b81, branchId=101, branchAddress=123 Main St, Mumbai, branchName=Mumbai Branch, branchCode=2023]]
+2024-09-20 08:14:16 - Branch details:[BranchTO[id=66e8fb1bd83236f7d7513b81, branchId=101, branchAddress=123 Main St, Mumbai, branchName=Mumbai Branch, branchCode=2023]]
+2024-09-20 08:14:16 - End of BranchController.findAllBranches
+2024-09-20 08:14:36 - Inside the BranchController.findById, id:66e8fb1bd83236f7d7513b81
+2024-09-20 08:14:36 - Inside the BranchServiceImpl.findById, id:66e8fb1bd83236f7d7513b81
+2024-09-20 08:14:36 - Branch details:com.bankingmanagement.document.Branch@5e01384
+2024-09-20 08:14:36 - Branch details: BranchTO[id=66e8fb1bd83236f7d7513b81, branchId=101, branchAddress=Mumbai Branch, branchName=123 Main St, Mumbai, branchCode=2023]
+2024-09-20 08:14:36 - End of BranchController.findById
+2024-09-20 08:14:57 - Inside CustomerController.findAllCustomers
+2024-09-20 08:14:57 - Inside CustomerServiceImpl.findAll
+2024-09-20 08:14:57 - Exception while getting customer details
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.Long] to type [int] for value [9876543210]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:165)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1845)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1837)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1373)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1347)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$DefaultConversionContext.convert(MappingMongoConverter.java:2385)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$ConversionContext.convert(MappingMongoConverter.java:2191)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1957)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:643)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:560)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:537)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readDocument(MappingMongoConverter.java:503)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:439)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:435)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:125)
+	at org.springframework.data.mongodb.core.MongoTemplate$ReadDocumentCallback.doWith(MongoTemplate.java:3293)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2927)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2604)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2583)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:868)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:402)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:144)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.mongodb.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:158)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.findAll(Unknown Source)
+	at com.bankingmanagement.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:27)
+	at com.bankingmanagement.controller.CustomerController.findAll(CustomerController.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Could not convert number [9876543210] of type [java.lang.Long] to target class [java.lang.Integer]: overflow
+	at org.springframework.util.NumberUtils.raiseOverflowException(NumberUtils.java:167)
+	at org.springframework.util.NumberUtils.convertNumberToTargetClass(NumberUtils.java:100)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:66)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:56)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:409)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 98 common frames omitted
+2024-09-20 08:15:28 - Starting BankingmanagementApiApplication using Java 21.0.1 with PID 21072 (C:\Users\91630\SpringBootProject\bankingmanagement-api\build\classes\java\main started by 91630 in C:\Users\91630\SpringBootProject)
+2024-09-20 08:15:28 - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 08:15:28 - No active profile set, falling back to 1 default profile: "default"
+2024-09-20 08:15:29 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:15:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-20 08:15:29 - Finished Spring Data repository scanning in 69 ms. Found 5 JPA repository interfaces.
+2024-09-20 08:15:29 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:15:29 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-09-20 08:15:29 - Finished Spring Data repository scanning in 24 ms. Found 5 MongoDB repository interfaces.
+2024-09-20 08:15:31 - Tomcat initialized with port 9090 (http)
+2024-09-20 08:15:31 - Starting service [Tomcat]
+2024-09-20 08:15:31 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-20 08:15:31 - Initializing Spring embedded WebApplicationContext
+2024-09-20 08:15:31 - Root WebApplicationContext: initialization completed in 2960 ms
+2024-09-20 08:15:32 - HikariPool-1 - Starting...
+2024-09-20 08:15:32 - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@58e02359
+2024-09-20 08:15:32 - HikariPool-1 - Start completed.
+2024-09-20 08:15:32 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-20 08:15:32 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-20 08:15:32 - HHH000026: Second-level cache disabled
+2024-09-20 08:15:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-20 08:15:33 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-09-20 08:15:33 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:15:33 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:15:33 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:15:33 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:15:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-20 08:15:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-20 08:15:35 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.1+12-LTS-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@445adbd7], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@225d93aa, com.mongodb.Jep395RecordCodecProvider@35ef158f, com.mongodb.KotlinCodecProvider@59d8a968]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@6eaa8abf], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-09-20 08:15:35 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=44862200}
+2024-09-20 08:15:36 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-20 08:15:37 - Exposing 9 endpoints beneath base path '/actuator'
+2024-09-20 08:15:37 - Tomcat started on port 9090 (http) with context path '/'
+2024-09-20 08:15:37 - Started BankingmanagementApiApplication in 9.918 seconds (process running for 10.532)
+2024-09-20 08:15:37 - Banking Management Application has been started
+2024-09-20 08:15:50 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20 08:15:50 - Initializing Servlet 'dispatcherServlet'
+2024-09-20 08:15:50 - Completed initialization in 1 ms
+2024-09-20 08:15:50 - Inside LoanController.findAllLoans
+2024-09-20 08:15:50 - Inside LoanServiceImpl.findAll
+2024-09-20 08:15:50 - Loan details:[LoanTO[id=66e8fc82d83236f7d7513b85, loanId=101, loanType=Personal Loan, loanAmount=500000, branchId=1, custId=1001]]
+2024-09-20 08:15:50 - Loan details:[LoanTO[id=66e8fc82d83236f7d7513b85, loanId=101, loanType=Personal Loan, loanAmount=500000, branchId=1, custId=1001]]
+2024-09-20 08:15:50 - End of LoanController.findAllLoans
+2024-09-20 08:16:08 - Inside the LoanController.findById, id:66e8fc82d83236f7d7513b85
+2024-09-20 08:16:08 - Inside the LoanServiceImpl.findById, id:66e8fc82d83236f7d7513b85
+2024-09-20 08:16:08 - Loan details:com.bankingmanagement.document.Loan@40dee911
+2024-09-20 08:16:08 - Loan details: LoanTO[id=66e8fc82d83236f7d7513b85, loanId=101, loanType=Personal Loan, loanAmount=500000, branchId=1, custId=1001]
+2024-09-20 08:16:08 - End of LoanController.findById
+2024-09-20 08:16:35 - Inside the BranchController.findAllBranches
+2024-09-20 08:16:35 - Inside the BranchServiceImpl.findAll
+2024-09-20 08:16:35 - Branch details:[BranchTO[id=66e8fb1bd83236f7d7513b81, branchId=101, branchAddress=123 Main St, Mumbai, branchName=Mumbai Branch, branchCode=2023]]
+2024-09-20 08:16:35 - Branch details:[BranchTO[id=66e8fb1bd83236f7d7513b81, branchId=101, branchAddress=123 Main St, Mumbai, branchName=Mumbai Branch, branchCode=2023]]
+2024-09-20 08:16:35 - End of BranchController.findAllBranches
+2024-09-20 08:16:56 - Inside the BranchController.findById, id:66e8fb1bd83236f7d7513b81
+2024-09-20 08:16:56 - Inside the BranchServiceImpl.findById, id:66e8fb1bd83236f7d7513b81
+2024-09-20 08:16:56 - Branch details:com.bankingmanagement.document.Branch@39157875
+2024-09-20 08:16:56 - Branch details: BranchTO[id=66e8fb1bd83236f7d7513b81, branchId=101, branchAddress=Mumbai Branch, branchName=123 Main St, Mumbai, branchCode=2023]
+2024-09-20 08:16:56 - End of BranchController.findById
+2024-09-20 08:17:02 - Init duration for springdoc-openapi is: 668 ms
+2024-09-20 08:17:14 - Inside CustomerController.findAllCustomers
+2024-09-20 08:17:14 - Inside CustomerServiceImpl.findAll
+2024-09-20 08:17:14 - Exception while getting customer details
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.Long] to type [int] for value [9876543210]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:165)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1845)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1837)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1373)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1347)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$DefaultConversionContext.convert(MappingMongoConverter.java:2385)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$ConversionContext.convert(MappingMongoConverter.java:2191)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1957)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:643)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:560)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:537)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readDocument(MappingMongoConverter.java:503)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:439)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:435)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:125)
+	at org.springframework.data.mongodb.core.MongoTemplate$ReadDocumentCallback.doWith(MongoTemplate.java:3293)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2927)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2604)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2583)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:868)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:402)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:144)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.mongodb.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:158)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.findAll(Unknown Source)
+	at com.bankingmanagement.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:27)
+	at com.bankingmanagement.controller.CustomerController.findAll(CustomerController.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Could not convert number [9876543210] of type [java.lang.Long] to target class [java.lang.Integer]: overflow
+	at org.springframework.util.NumberUtils.raiseOverflowException(NumberUtils.java:167)
+	at org.springframework.util.NumberUtils.convertNumberToTargetClass(NumberUtils.java:100)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:66)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:56)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:409)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 98 common frames omitted
+2024-09-20 08:33:39 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m7s127ms724µs500ns).
+2024-09-20 08:42:02 - Inside CustomerController.findAllCustomers
+2024-09-20 08:42:02 - Inside CustomerServiceImpl.findAll
+2024-09-20 08:42:02 - Exception while getting customer details
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.Long] to type [int] for value [9876543210]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:165)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1845)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1837)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1373)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1347)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$DefaultConversionContext.convert(MappingMongoConverter.java:2385)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$ConversionContext.convert(MappingMongoConverter.java:2191)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1957)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:643)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:560)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:537)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readDocument(MappingMongoConverter.java:503)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:439)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:435)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:125)
+	at org.springframework.data.mongodb.core.MongoTemplate$ReadDocumentCallback.doWith(MongoTemplate.java:3293)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2927)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2604)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2583)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:868)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:402)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:144)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.mongodb.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:158)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.findAll(Unknown Source)
+	at com.bankingmanagement.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:27)
+	at com.bankingmanagement.controller.CustomerController.findAll(CustomerController.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Could not convert number [9876543210] of type [java.lang.Long] to target class [java.lang.Integer]: overflow
+	at org.springframework.util.NumberUtils.raiseOverflowException(NumberUtils.java:167)
+	at org.springframework.util.NumberUtils.convertNumberToTargetClass(NumberUtils.java:100)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:66)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:56)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:409)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 98 common frames omitted
+2024-09-20 08:46:17 - Starting BankingmanagementApiApplication using Java 21.0.1 with PID 14672 (C:\Users\91630\SpringBootProject\bankingmanagement-api\build\classes\java\main started by 91630 in C:\Users\91630\SpringBootProject)
+2024-09-20 08:46:17 - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 08:46:17 - No active profile set, falling back to 1 default profile: "default"
+2024-09-20 08:46:18 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:46:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-20 08:46:18 - Finished Spring Data repository scanning in 95 ms. Found 5 JPA repository interfaces.
+2024-09-20 08:46:18 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:46:18 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-09-20 08:46:18 - Finished Spring Data repository scanning in 36 ms. Found 5 MongoDB repository interfaces.
+2024-09-20 08:46:20 - Tomcat initialized with port 9090 (http)
+2024-09-20 08:46:20 - Starting service [Tomcat]
+2024-09-20 08:46:20 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-20 08:46:20 - Initializing Spring embedded WebApplicationContext
+2024-09-20 08:46:20 - Root WebApplicationContext: initialization completed in 3606 ms
+2024-09-20 08:46:21 - HikariPool-1 - Starting...
+2024-09-20 08:46:22 - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5d2e6f62
+2024-09-20 08:46:22 - HikariPool-1 - Start completed.
+2024-09-20 08:46:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-20 08:46:22 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-20 08:46:22 - HHH000026: Second-level cache disabled
+2024-09-20 08:46:23 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-20 08:46:23 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-09-20 08:46:23 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:46:23 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:46:23 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:46:23 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:46:24 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-20 08:46:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-20 08:46:25 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.1+12-LTS-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@35d44cd3], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@34fde3a3, com.mongodb.Jep395RecordCodecProvider@4cdb7fd9, com.mongodb.KotlinCodecProvider@5d9639bb]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@7b0a69b9], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-09-20 08:46:25 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=50468500}
+2024-09-20 08:46:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-20 08:46:28 - Exposing 9 endpoints beneath base path '/actuator'
+2024-09-20 08:46:28 - Tomcat started on port 9090 (http) with context path '/'
+2024-09-20 08:46:28 - Started BankingmanagementApiApplication in 11.763 seconds (process running for 12.336)
+2024-09-20 08:46:28 - Banking Management Application has been started
+2024-09-20 08:46:35 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20 08:46:35 - Initializing Servlet 'dispatcherServlet'
+2024-09-20 08:46:35 - Completed initialization in 4 ms
+2024-09-20 08:46:36 - Init duration for springdoc-openapi is: 743 ms
+2024-09-20 08:46:47 - Inside CustomerController.findAllCustomers
+2024-09-20 08:46:47 - Inside CustomerServiceImpl.findAll
+2024-09-20 08:46:47 - Exception while getting customer details
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.Long] to type [int] for value [9876543210]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:165)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1845)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1837)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1373)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1347)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$DefaultConversionContext.convert(MappingMongoConverter.java:2385)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$ConversionContext.convert(MappingMongoConverter.java:2191)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1957)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:643)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:560)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:537)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readDocument(MappingMongoConverter.java:503)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:439)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:435)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:125)
+	at org.springframework.data.mongodb.core.MongoTemplate$ReadDocumentCallback.doWith(MongoTemplate.java:3293)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2927)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2604)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2583)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:868)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:402)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:144)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.mongodb.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:158)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.findAll(Unknown Source)
+	at com.bankingmanagement.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:27)
+	at com.bankingmanagement.controller.CustomerController.findAll(CustomerController.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Could not convert number [9876543210] of type [java.lang.Long] to target class [java.lang.Integer]: overflow
+	at org.springframework.util.NumberUtils.raiseOverflowException(NumberUtils.java:167)
+	at org.springframework.util.NumberUtils.convertNumberToTargetClass(NumberUtils.java:100)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:66)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:56)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:409)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 98 common frames omitted
+2024-09-20 08:46:49 - Inside CustomerController.findAllCustomers
+2024-09-20 08:46:49 - Inside CustomerServiceImpl.findAll
+2024-09-20 08:46:49 - Exception while getting customer details
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.Long] to type [int] for value [9876543210]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:165)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1845)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1837)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1373)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1347)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$DefaultConversionContext.convert(MappingMongoConverter.java:2385)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$ConversionContext.convert(MappingMongoConverter.java:2191)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1957)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:643)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:560)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:537)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readDocument(MappingMongoConverter.java:503)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:439)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:435)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:125)
+	at org.springframework.data.mongodb.core.MongoTemplate$ReadDocumentCallback.doWith(MongoTemplate.java:3293)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2927)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2604)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2583)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:868)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:402)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:144)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.mongodb.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:158)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.findAll(Unknown Source)
+	at com.bankingmanagement.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:27)
+	at com.bankingmanagement.controller.CustomerController.findAll(CustomerController.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Could not convert number [9876543210] of type [java.lang.Long] to target class [java.lang.Integer]: overflow
+	at org.springframework.util.NumberUtils.raiseOverflowException(NumberUtils.java:167)
+	at org.springframework.util.NumberUtils.convertNumberToTargetClass(NumberUtils.java:100)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:66)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:56)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:409)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 98 common frames omitted
+2024-09-20 08:47:19 - Starting BankingmanagementApiApplication using Java 21.0.1 with PID 22316 (C:\Users\91630\SpringBootProject\bankingmanagement-api\build\classes\java\main started by 91630 in C:\Users\91630\SpringBootProject)
+2024-09-20 08:47:19 - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 08:47:19 - No active profile set, falling back to 1 default profile: "default"
+2024-09-20 08:47:21 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:47:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-20 08:47:21 - Finished Spring Data repository scanning in 59 ms. Found 5 JPA repository interfaces.
+2024-09-20 08:47:21 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:47:21 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-09-20 08:47:21 - Finished Spring Data repository scanning in 19 ms. Found 5 MongoDB repository interfaces.
+2024-09-20 08:47:23 - Tomcat initialized with port 9090 (http)
+2024-09-20 08:47:23 - Starting service [Tomcat]
+2024-09-20 08:47:23 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-20 08:47:23 - Initializing Spring embedded WebApplicationContext
+2024-09-20 08:47:23 - Root WebApplicationContext: initialization completed in 3858 ms
+2024-09-20 08:47:24 - HikariPool-1 - Starting...
+2024-09-20 08:47:24 - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1f408ab6
+2024-09-20 08:47:24 - HikariPool-1 - Start completed.
+2024-09-20 08:47:24 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-20 08:47:24 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-20 08:47:24 - HHH000026: Second-level cache disabled
+2024-09-20 08:47:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-20 08:47:25 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-09-20 08:47:26 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:47:26 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:47:26 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:47:26 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:47:26 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-20 08:47:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-20 08:47:27 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.1+12-LTS-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@445adbd7], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@225d93aa, com.mongodb.Jep395RecordCodecProvider@35ef158f, com.mongodb.KotlinCodecProvider@59d8a968]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@6eaa8abf], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-09-20 08:47:27 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=76935300}
+2024-09-20 08:47:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-20 08:47:30 - Exposing 9 endpoints beneath base path '/actuator'
+2024-09-20 08:47:30 - Tomcat started on port 9090 (http) with context path '/'
+2024-09-20 08:47:30 - Started BankingmanagementApiApplication in 11.864 seconds (process running for 12.381)
+2024-09-20 08:47:30 - Banking Management Application has been started
+2024-09-20 08:47:37 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20 08:47:37 - Initializing Servlet 'dispatcherServlet'
+2024-09-20 08:47:37 - Completed initialization in 8 ms
+2024-09-20 08:47:38 - Init duration for springdoc-openapi is: 833 ms
+2024-09-20 08:47:49 - Inside CustomerController.findAllCustomers
+2024-09-20 08:47:49 - Inside CustomerServiceImpl.findAll
+2024-09-20 08:47:49 - Exception while getting customer details
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.Long] to type [int] for value [9876543210]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:165)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1845)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.doConvert(MappingMongoConverter.java:1837)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1373)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.getPotentiallyConvertedSimpleRead(MappingMongoConverter.java:1347)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$DefaultConversionContext.convert(MappingMongoConverter.java:2385)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$ConversionContext.convert(MappingMongoConverter.java:2191)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1957)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:643)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:560)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:537)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readDocument(MappingMongoConverter.java:503)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:439)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:435)
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:125)
+	at org.springframework.data.mongodb.core.MongoTemplate$ReadDocumentCallback.doWith(MongoTemplate.java:3293)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2927)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2604)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2583)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:868)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:402)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:144)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.mongodb.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:158)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.findAll(Unknown Source)
+	at com.bankingmanagement.service.CustomerServiceImpl.findAll(CustomerServiceImpl.java:27)
+	at com.bankingmanagement.controller.CustomerController.findAll(CustomerController.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Could not convert number [9876543210] of type [java.lang.Long] to target class [java.lang.Integer]: overflow
+	at org.springframework.util.NumberUtils.raiseOverflowException(NumberUtils.java:167)
+	at org.springframework.util.NumberUtils.convertNumberToTargetClass(NumberUtils.java:100)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:66)
+	at org.springframework.core.convert.support.NumberToNumberConverterFactory$NumberToNumber.convert(NumberToNumberConverterFactory.java:56)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:409)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 98 common frames omitted
+2024-09-20 08:54:14 - Starting BankingmanagementApiApplication using Java 21.0.1 with PID 2540 (C:\Users\91630\SpringBootProject\bankingmanagement-api\build\classes\java\main started by 91630 in C:\Users\91630\SpringBootProject)
+2024-09-20 08:54:14 - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 08:54:14 - No active profile set, falling back to 1 default profile: "default"
+2024-09-20 08:54:15 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:54:15 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-20 08:54:16 - Finished Spring Data repository scanning in 144 ms. Found 5 JPA repository interfaces.
+2024-09-20 08:54:16 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:54:16 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-09-20 08:54:16 - Finished Spring Data repository scanning in 34 ms. Found 5 MongoDB repository interfaces.
+2024-09-20 08:54:18 - Tomcat initialized with port 9090 (http)
+2024-09-20 08:54:18 - Starting service [Tomcat]
+2024-09-20 08:54:18 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-20 08:54:18 - Initializing Spring embedded WebApplicationContext
+2024-09-20 08:54:18 - Root WebApplicationContext: initialization completed in 4086 ms
+2024-09-20 08:54:19 - HikariPool-1 - Starting...
+2024-09-20 08:54:19 - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@608b35fa
+2024-09-20 08:54:19 - HikariPool-1 - Start completed.
+2024-09-20 08:54:20 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-20 08:54:20 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-20 08:54:20 - HHH000026: Second-level cache disabled
+2024-09-20 08:54:20 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-20 08:54:21 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-09-20 08:54:21 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:54:21 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:54:21 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:54:21 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:54:22 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-20 08:54:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-20 08:54:23 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.1+12-LTS-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@6f13ed1], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@17c3e33, com.mongodb.Jep395RecordCodecProvider@2eb27091, com.mongodb.KotlinCodecProvider@561b4c61]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@642693c2], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-09-20 08:54:23 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=56247200}
+2024-09-20 08:54:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-20 08:54:26 - Exposing 9 endpoints beneath base path '/actuator'
+2024-09-20 08:54:26 - Tomcat started on port 9090 (http) with context path '/'
+2024-09-20 08:54:26 - Started BankingmanagementApiApplication in 12.928 seconds (process running for 13.433)
+2024-09-20 08:54:26 - Banking Management Application has been started
+2024-09-20 08:54:33 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20 08:54:33 - Initializing Servlet 'dispatcherServlet'
+2024-09-20 08:54:33 - Completed initialization in 1 ms
+2024-09-20 08:54:34 - Init duration for springdoc-openapi is: 876 ms
+2024-09-20 08:54:39 - Inside CustomerController.findAllCustomers
+2024-09-20 08:54:39 - Inside CustomerServiceImpl.findAll
+2024-09-20 08:54:39 - Number of customers fetched: 1
+2024-09-20 08:54:39 - Customer details:[CustomerTO[id=66e8fbbfd83236f7d7513b83, custId=1001, custName=John Doe, custPhone=987654, custAddress=456 Park Ave, New York]]
+2024-09-20 08:54:39 - Customer details:[CustomerTO[id=66e8fbbfd83236f7d7513b83, custId=1001, custName=John Doe, custPhone=987654, custAddress=456 Park Ave, New York]]
+2024-09-20 08:54:39 - End of CustomerController.findAllCustomers
+2024-09-20 08:55:09 - Inside the CustomerController.findById, id:66e8fbbfd83236f7d7513b83
+2024-09-20 08:55:09 - Inside the CustomerServiceImpl.findById, id:66e8fbbfd83236f7d7513b83
+2024-09-20 08:55:09 - Customer details:com.bankingmanagement.document.Customer@79593a42
+2024-09-20 08:55:09 - Customer details: CustomerTO[id=66e8fbbfd83236f7d7513b83, custId=1001, custName=John Doe, custPhone=987654, custAddress=456 Park Ave, New York]
+2024-09-20 08:55:09 - End of CustomerController.findById
+2024-09-20 08:58:59 - Starting BankingmanagementApiApplication using Java 21.0.1 with PID 25256 (C:\Users\91630\SpringBootProject\bankingmanagement-api\build\classes\java\main started by 91630 in C:\Users\91630\SpringBootProject)
+2024-09-20 08:58:59 - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 08:58:59 - No active profile set, falling back to 1 default profile: "default"
+2024-09-20 08:59:00 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:59:00 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-20 08:59:00 - Finished Spring Data repository scanning in 99 ms. Found 5 JPA repository interfaces.
+2024-09-20 08:59:00 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 08:59:00 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-09-20 08:59:00 - Finished Spring Data repository scanning in 36 ms. Found 5 MongoDB repository interfaces.
+2024-09-20 08:59:03 - Tomcat initialized with port 9090 (http)
+2024-09-20 08:59:03 - Starting service [Tomcat]
+2024-09-20 08:59:03 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-20 08:59:03 - Initializing Spring embedded WebApplicationContext
+2024-09-20 08:59:03 - Root WebApplicationContext: initialization completed in 4006 ms
+2024-09-20 08:59:04 - HikariPool-1 - Starting...
+2024-09-20 08:59:04 - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@13a268cd
+2024-09-20 08:59:04 - HikariPool-1 - Start completed.
+2024-09-20 08:59:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-20 08:59:05 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-20 08:59:05 - HHH000026: Second-level cache disabled
+2024-09-20 08:59:05 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-20 08:59:06 - HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2024-09-20 08:59:06 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:59:06 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:59:06 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:59:06 - HHH000069: Duplicate generator name bank_seq_generator
+2024-09-20 08:59:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-20 08:59:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-20 08:59:09 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.1+12-LTS-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@7053b64b], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@2eb27091, com.mongodb.Jep395RecordCodecProvider@561b4c61, com.mongodb.KotlinCodecProvider@313c3cb]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@219bad15], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-09-20 08:59:09 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=142149400}
+2024-09-20 08:59:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-20 08:59:13 - Exposing 9 endpoints beneath base path '/actuator'
+2024-09-20 08:59:13 - Tomcat started on port 9090 (http) with context path '/'
+2024-09-20 08:59:13 - Started BankingmanagementApiApplication in 15.55 seconds (process running for 16.044)
+2024-09-20 08:59:13 - Banking Management Application has been started
+2024-09-20 08:59:26 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20 08:59:26 - Initializing Servlet 'dispatcherServlet'
+2024-09-20 08:59:26 - Completed initialization in 2 ms
+2024-09-20 08:59:28 - Init duration for springdoc-openapi is: 1116 ms
+2024-09-20 08:59:40 - Inside LoanController.findAllLoans
+2024-09-20 08:59:40 - Inside LoanServiceImpl.findAll
+2024-09-20 08:59:40 - Loan details:[LoanTO[id=66e8fc82d83236f7d7513b85, loanId=101, loanType=Personal Loan, loanAmount=500000, branchId=1, custId=1001]]
+2024-09-20 08:59:40 - Loan details:[LoanTO[id=66e8fc82d83236f7d7513b85, loanId=101, loanType=Personal Loan, loanAmount=500000, branchId=1, custId=1001]]
+2024-09-20 08:59:40 - End of LoanController.findAllLoans
+2024-09-20 09:00:04 - Inside the LoanController.findById, id:66e8fc82d83236f7d7513b85
+2024-09-20 09:00:04 - Inside the LoanServiceImpl.findById, id:66e8fc82d83236f7d7513b85
+2024-09-20 09:00:04 - Loan details:com.bankingmanagement.document.Loan@10d7ebf8
+2024-09-20 09:00:04 - Loan details: LoanTO[id=66e8fc82d83236f7d7513b85, loanId=101, loanType=Personal Loan, loanAmount=500000, branchId=1, custId=1001]
+2024-09-20 09:00:04 - End of LoanController.findById
+2024-09-20 09:00:21 - Inside CustomerController.findAllCustomers
+2024-09-20 09:00:21 - Inside CustomerServiceImpl.findAll
+2024-09-20 09:00:21 - Customer details:[CustomerTO[id=66e8fbbfd83236f7d7513b83, custId=1001, custName=John Doe, custPhone=987654, custAddress=456 Park Ave, New York]]
+2024-09-20 09:00:21 - Customer details:[CustomerTO[id=66e8fbbfd83236f7d7513b83, custId=1001, custName=John Doe, custPhone=987654, custAddress=456 Park Ave, New York]]
+2024-09-20 09:00:21 - End of CustomerController.findAllCustomers
+2024-09-20 09:00:57 - Inside the CustomerController.findById, id:66e8fbbfd83236f7d7513b83
+2024-09-20 09:00:57 - Inside the CustomerServiceImpl.findById, id:66e8fbbfd83236f7d7513b83
+2024-09-20 09:00:57 - Customer details:com.bankingmanagement.document.Customer@559b885b
+2024-09-20 09:00:57 - Customer details: CustomerTO[id=66e8fbbfd83236f7d7513b83, custId=1001, custName=John Doe, custPhone=987654, custAddress=456 Park Ave, New York]
+2024-09-20 09:00:57 - End of CustomerController.findById
+2024-09-20 09:01:07 - Inside the BranchController.findAllBranches
+2024-09-20 09:01:07 - Inside the BranchServiceImpl.findAll
+2024-09-20 09:01:07 - Branch details:[BranchTO[id=66e8fb1bd83236f7d7513b81, branchId=101, branchAddress=123 Main St, Mumbai, branchName=Mumbai Branch, branchCode=2023]]
+2024-09-20 09:01:07 - Branch details:[BranchTO[id=66e8fb1bd83236f7d7513b81, branchId=101, branchAddress=123 Main St, Mumbai, branchName=Mumbai Branch, branchCode=2023]]
+2024-09-20 09:01:07 - End of BranchController.findAllBranches
+2024-09-20 09:01:26 - Inside the BranchController.findById, id:66e8fb1bd83236f7d7513b81
+2024-09-20 09:01:26 - Inside the BranchServiceImpl.findById, id:66e8fb1bd83236f7d7513b81
+2024-09-20 09:01:26 - Branch details:com.bankingmanagement.document.Branch@52618475
+2024-09-20 09:01:26 - Branch details: BranchTO[id=66e8fb1bd83236f7d7513b81, branchId=101, branchAddress=Mumbai Branch, branchName=123 Main St, Mumbai, branchCode=2023]
+2024-09-20 09:01:26 - End of BranchController.findById
+2024-09-20 09:01:50 - Inside the BankController.findAllBanks
+2024-09-20 09:01:50 - Inside the BankServiceImpl.findAll
+2024-09-20 09:01:50 - Bank details:[BankTO[id=66e8f563d83236f7d7513b79, bankCode=1234, bankName=Bank of India, bankAddress=Mumbai]]
+2024-09-20 09:01:50 - Bank details:[BankTO[id=66e8f563d83236f7d7513b79, bankCode=1234, bankName=Bank of India, bankAddress=Mumbai]]
+2024-09-20 09:01:50 - End of BankController.findAllBanks
+2024-09-20 09:02:10 - Inside the BankController.findById, id:66e8f563d83236f7d7513b79
+2024-09-20 09:02:10 - Inside the BankServiceImpl.findById, id:66e8f563d83236f7d7513b79
+2024-09-20 09:02:10 - Bank details:com.bankingmanagement.document.Bank@7a519cf6
+2024-09-20 09:02:10 - Bank details, bank:BankTO[id=66e8f563d83236f7d7513b79, bankCode=1234, bankName=Bank of India, bankAddress=Mumbai]
+2024-09-20 09:02:10 - End of BankController.findById
+2024-09-20 09:02:18 - Inside the AccountController.findAllAccounts
+2024-09-20 09:02:18 - Inside the AccountServiceImpl.findAll
+2024-09-20 09:02:18 - Account details: [AccountTO[id=66e8fa13d83236f7d7513b7f, accountNo=12345, accountType=Savings, accountBalance=1000]]
+2024-09-20 09:02:18 - Account details: [AccountTO[id=66e8fa13d83236f7d7513b7f, accountNo=12345, accountType=Savings, accountBalance=1000]]
+2024-09-20 09:02:18 - End of AccountController.findAllAccounts
+2024-09-20 09:02:39 - Inside the AccountController.findById, id:66e8fa13d83236f7d7513b7f
+2024-09-20 09:02:39 - Inside the AccountServiceImpl.findById, id:66e8fa13d83236f7d7513b7f
+2024-09-20 09:02:39 - Account details:com.bankingmanagement.document.Account@48200291
+2024-09-20 09:02:39 - Account details:AccountTO[id=66e8fa13d83236f7d7513b7f, accountNo=12345, accountType=Savings, accountBalance=1000]
+2024-09-20 09:02:39 - End of AccountController.findById
+2024-09-20 10:17:46 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m10s871ms406µs900ns).
+2024-09-20 10:48:46 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m59s903ms446µs600ns).

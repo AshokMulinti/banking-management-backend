@@ -1,0 +1,33 @@
+server:
+  port: 9090
+logging:
+  level:
+    com:
+      bankingmanagement: debug
+  file:
+    name: C:\Users\91630\SpringBootProject\bankingmanagement-api\bankingmanagement.log
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,metrics,loggers,beans,mappings,threaddump,env,caches,prometheus
+  endpoint:
+    health:
+      show-details: always
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: bankingmanagement
+#  datasource:
+#    username: postgres
+#    password: root
+#    url: jdbc:postgresql://localhost:5432/postgres
+
+  datasource:
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: root
